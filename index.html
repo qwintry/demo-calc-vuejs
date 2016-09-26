@@ -40,7 +40,7 @@
                                 <div class="form-group">
                                     <label class="control-label">Shipment Weight</label>
                                     <div class="input-group">
-                                        <input class="form-control" name="weight" id="weight" v-model="calc.weight" value="10"  type="text" number><span class="input-group-addon" number>kg</span>
+                                        <input class="form-control" name="weight" id="weight" v-model="calc.weight"  type="text" number><span class="input-group-addon" number>kg</span>
 
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@
                                     <label class="control-label">Items Cost</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">$</span>
-                                        <input class="form-control" name="cost" v-model="calc.cost" value="200" type="text" number >
+                                        <input class="form-control" name="cost" v-model="calc.cost"  type="text" number >
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                                                     <div class="row">
 
                                                         <div class="col-lg-12">
-                                                            <h3>{{ method.method | capitalize }}: ${{  method.total }} </h3>
+                                                            <h3>{{ method.method | capitalize }}: ${{  method.total + calc.cost }} </h3>
 
                                                         </div>
 
