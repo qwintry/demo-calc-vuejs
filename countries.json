@@ -1,0 +1,25 @@
+[
+  {
+      "code": "RU",
+      "name": "Russia",
+      "limit": 1120,
+      "formula": "((x - 1120) * 0.3) + 15",
+      "selected": true,
+      "info": "1000 EUR per calendar month per recipient, customs fee is 30% from the amount excessing 1000 EUR + static $15 fee."
+  },
+  {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "limit": 1120,
+      "formula": "((x - 1120) * 0.3) + 15",
+      "info": "1000 EUR per calendar month per recipient, customs fee is 30% from the amount excessing 1000 EUR + static $15 fee."
+  },
+  {
+      "code": "UA",
+      "name": "Ukraine",
+      "limit": 165,
+      "formula": "((x - 165) * 0.35)",
+      "info": "150EUR per parcel, customs fee is 35% from the amount excessing 150 EUR"
+
+  }
+]

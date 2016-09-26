@@ -1,0 +1,26 @@
+[
+  {
+    "name": "iPhone 7",
+    "price": 749,
+    "pic": "16243d92758e6df61931335759f09575.jpg",
+    "weight": 0.65
+  },
+  {
+    "name": "iPad Air 2",
+    "price": 499,
+    "pic": "86945b9018eba03a4874b7b1fee39cd5.jpg",
+    "weight": 1.1
+  },
+  {
+    "name": "MacBook 12",
+    "price": 1129,
+    "pic": "e9eb7b588f79c6e7e5e81c12b638aa9c.jpg",
+    "weight": 1.95
+  },
+  {
+    "name": "MacBook Pro 13.3",
+    "price": 1299,
+    "pic": "4c1ee0ee6862eb62bed27e21d906c337.jpg",
+    "weight": 3.8
+  }
+]
